@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+
+/*
+ * Overview: Reset & Function & Global
+ * Site: http://f2e.adee.cn
+ */
+
+/** Reset **/
+a, blockquote, button, body, code, dd, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, hr, html, i, input, iframe, img, label, li, legend, object, ol, p, pre, small, span, strong, sub, sup, table, tbody, td, th, thead, tr, ul { margin: 0; padding: 0; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark { display: block; margin: 0; padding: 0; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+time { display: inline; }
+mark { color: #333; background: #ff0; }
+html { color: #333; background-color: #fff; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body, button, input, select, textarea { font: 12px/1.5 Tahoma, Arial, '\5FAE\8F6F\96C5\9ED1', '\5B8B\4F53', '\5FAE\8F6F\96C5\9ED1', sans-serif; }
+input, select, textarea { font-size: 100%; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 500; }
+b, strong { font-weight: 700; }
+address, cite, dfn, em, var { font-style: normal; }
+code, kbd, pre, samp { font-family: Tahoma, Arial; }
+small { font-size: 80%; }
+ul, ol, li { list-style: none; }
+a { color: #333; text-decoration: none; cursor: pointer; }
+a:link { color: #333; text-decoration: none; }
+a:visited { color: #333; text-decoration: none; }
+a:hover { color: #333; text-decoration: none; }
+a:active { color: #333; text-decoration: none; }
+sup, sub { position: relative; font-size: 75%; line-height: 0; vertical-align: baseline; }
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+legend { color: #333; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-weight: inherit; }
+input, button, textarea, select { font-size: 100%\9; }
+pre { white-space: pre-wrap; word-wrap: break-word; }
+table { max-width: 100%; border-collapse: collapse; border-spacing: 0; background-color: transparent; }
+th { text-align: inherit; }
+fieldset, img { border: 0; }
+a img {  border-width: 0; vertical-align: top; }
+iframe { display: block; }
+del { text-decoration: line-through; }
+
+/** Function **/
+.fn-clear:after { visibility: hidden; display: block; font-size: 0; content: '\0020'; clear: both; height: 0; }
+.fn-clear { zoom: 1; }
+.fn-clearfix { visibility: hidden; clear: both; }
+.fn-left, .fn-right { display: inline; }
+.fn-left { float: left; }
+.fn-right { float: right; }
+
+/** Golbal **/
+.width { width: 1100px; min-width: 1100px; margin-left: auto; margin-right: auto; overflow: hidden; }
+
+
+
+.regist-box {
+  margin-top: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+.regist-sub {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.regist-sub h2 {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #238a34;
+}
+.regist-sub input {
+  display: block;
+  width: 300px;
+  height: 34px;
+  margin: 19px auto;
+  line-height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-indent: 10px;
+}
+.regist-sub button {
+  display: flex;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  height: 34px;
+  box-sizing: border-box;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #238a34;
+  font-size: 14px;
+  color: #238a34;
+  background-color: #fff;
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+.regist-sub button:hover {
+  color: #ffffff;
+  background-color: #238a34;
+  border-color: #238a34;
+}
+.form-group {
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
+}
+.form-group .message {
+  display: none;
+  position: absolute;
+  width: 200px;
+  left: 330px;
+  top: 0px;
+  height: 34px;
+  line-height: 34px;
+  text-align: left;
+  color: #e60012;
+}
+.form-group.error .message {
+  display: block;
+}
+
+@media only screen and (max-width: 640px){
+  .width,
+  .header,
+  .footer{
+    width: 100%; max-width: 100%; min-width: 0}
+}
+
+
+
+
+
+
+
+
+

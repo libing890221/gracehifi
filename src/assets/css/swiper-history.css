@@ -1,0 +1,62 @@
+.history {
+  position: relative;
+}
+
+.swiper-history {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.swiper-history .swiper-container{
+  background: #fff;
+}
+.history-title {
+  margin-top: 40px;
+  border-bottom: 2px solid #238a34;
+}
+.history-title h2 {
+  display: block;
+  height: 38px;
+  line-height: 38px;
+  font-size: 20px;
+  color: #238a34;
+}
+.swiper-history img {
+  max-width: 100%;
+}
+.swiper-history span {
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.swiper-history .swiper-slide {
+  width: 180px;
+  height: 200px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.swiper-history .swiper-button-prev,
+.swiper-history .swiper-button-next {
+  position: absolute;
+  top: 26px;
+  width: 30px;
+  height: 30px;
+  outline: none;
+}
+.swiper-history .swiper-button-prev {
+  left: auto;
+  right: 26px;
+  background: url("../images/his-prev.png") no-repeat center;
+}
+.swiper-history .swiper-button-next {
+  right: 0;
+  background: url("../images/his-next.png") no-repeat center;
+}
+.history-img {
+  width: 180px;
+  height: 160px;
+  background-size: 100% 100%;
+}

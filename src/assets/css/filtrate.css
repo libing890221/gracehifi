@@ -1,0 +1,83 @@
+.filtrate-box .choose-item {
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.filtrate-box .choose-item input,
+.filtrate-box .choose-item button {
+  margin: 4px 10px;
+  padding: 0 6px;
+  height: 24px;
+  line-height: 22px;
+  font-size: 12px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  outline: none;
+  background-color: #eeffee;
+  color: #6e6e6e;
+}
+
+.filtrate-box .choose-item input[type="text"] {
+
+}
+
+.choose-all {
+  margin-right: 30px;
+}
+
+.pending {
+  position: relative;
+}
+
+.pending .uesrShop-item-title {
+  background-color: #ccc;
+  width: 100%;
+}
+
+.pending-msg {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: none;
+}
+.pending  .pending-msg {
+  display: block;
+}
+
+@media only screen and (max-width: 640px) {
+  .choose-all {
+    margin-right: 0px;
+  }
+  .filtrate-box .choose-item button {
+    margin: 4px 5px;
+  }
+  .filtrate-rank {
+    overflow: hidden;
+  }
+  .filtrate-box .choose-item input,
+  .filtrate-box .choose-item button {
+    margin: 0 6px;
+  }
+  .filtrate-box .choose-search {
+    float: right;
+    width: 40%;
+    overflow: hidden;
+    justify-content: space-between;
+  }
+  .filtrate-box .choose-search button {
+    margin-right: 0;
+  }
+  .filtrate-box .choose-item button {
+    white-space: nowrap;
+  }
+  .filtrate-box .choose-item input[type="text"] {
+    width: 64%;
+    margin: 0;
+    padding: 0;
+    padding-left: 4px;
+    box-sizing: border-box;
+  }
+
+}
+

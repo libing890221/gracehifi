@@ -1,0 +1,25 @@
+/* Footer */
+.footer { width: 100%; height: 100px; background: url(../images/footer-bg.jpg) repeat-x left top; overflow: hidden; min-width: 1100px; padding-top: 30px; padding-bottom: 30px; }
+.footer p { color: #8a827d; line-height: 22px; }
+.footer p span { color: #c7b594; padding: 0 3px; }
+.footer .foot-follow { float: right; }
+.footer .foot-follow li { display: inline; }
+.footer .foot-follow a { float: left; display: block; margin-left: 5px; width: 40px; height: 20px; opacity: 0.6; filter: alpha(opacity=60); border-right: 1px solid #6b6b6b; background-image: url(../images/sprite-base.png); background-repeat: no-repeat; }
+.footer .foot-follow a:hover { opacity: 1.0; filter: alpha(opacity=100); }
+.footer .foot-follow .weibo a { background-position: 0 -8px; }
+.footer .foot-follow .tqq a { background-position: -36px -8px; }
+.footer .foot-follow .qq a { background-position: -72px -8px; }
+.footer .foot-follow .mail a { background-position: -108px -8px; }
+.footer .foot-follow span { padding-left: 10px; }
+@media only screen and (max-width: 640px) {
+  .footer {
+    min-width: 0;
+    padding-bottom: 90px;
+  }
+  .footer .width {
+    width: 80%;
+  }
+  .foot-follow {
+    margin-top: 10px;
+  }
+}

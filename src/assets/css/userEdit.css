@@ -1,0 +1,244 @@
+.user-edit-box {
+  width: 100%;
+  margin: 40px auto;
+  border: 1px solid #238a34;
+  border-radius: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.user-edit-title {
+  width: 100%;
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #238a34;
+  font-size: 14px;
+  color: #ffffff;
+}
+.user-edit-title span {
+  margin: 0 15px;
+}
+.user-edit-item {
+  display: block;
+  width: 96%;
+  margin: 20px auto;
+}
+.user-edit-item h1 {
+  display: flex;
+  flex-basis: 100%;
+  font-size: 18px;
+  align-items: flex-end;
+  overflow: hidden;
+}
+.user-edit-item h1 span {
+  margin-bottom: 3px;
+  margin-left: 10px;
+  font-size: 12px;
+  color: #787878;
+}
+.user-edit-item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.edit-item {
+  width: 33%;
+  display: block;
+  position: relative;
+  align-items: left;
+  margin: 10px 0;
+}
+.edit-item-textarea {
+  width: 100%;
+}
+.edit-item-textarea span {
+  float: left;
+  display: flex;
+  height: 100%;
+  color: #888;
+  align-items: flex-end;
+}
+.edit-item-checkbox {
+  width: 9%;
+  display: flex;
+  align-items: center;
+  margin-left: 28px;
+}
+.edit-item.edit-item-checkbox input {
+  width: 18px;
+  height: 18px;
+
+}
+
+.edit-item label {
+  float: left;
+  display: inline-block;
+  width: 104px;
+  height: 28px;
+  margin-right: 6px;
+  line-height: 28px;
+  font-size: 14px;
+  text-align: right;
+}
+.edit-basic {
+  width: 98%;
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0 40px;
+  overflow: hidden;
+  background-color: #cccccc;
+}
+.edit-date {
+  float: left;
+  width: 160px;
+  border-radius: 5px;
+  padding-left: 6px;
+  border: 1px solid #ccc;
+}
+.edit-item .edit-date input {
+  border:none;
+  padding-left: 0;
+}
+.edit-item input {
+  float: left;
+  width: 160px;
+  padding-left: 6px;
+  display: inline-block;
+  border-radius: 5px;
+  height: 28px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.edit-item textarea {
+  display: block;
+  float: left;
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  margin-right: 10px;
+  resize: none;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.edit-item-select {
+  float: left;
+  width: 166px;
+  height: 32px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+
+}
+.edit-item-select select {
+  height: 32px;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.image-upload {
+  display: flex;
+  margin-top:10px;
+  margin-left: 7px;
+  align-items: flex-end;
+}
+.image-upload span {
+  color: #787878;
+}
+.image-upload .image-upload-item {
+  display: inline-flex;
+  position: relative;
+  width: 75px;
+  height: 60px;
+  margin: 5px 8px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  transition-duration: 3s;
+}
+.image-upload .image-upload-item img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.image-upload-wrap {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.8);
+}
+.image-upload-box {
+  width: 600px;
+  height: 450px;
+  margin: 100px auto;
+  background-color: #fff;
+}
+.watermark {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+.removeImage {
+  display: block;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  z-index: 200;
+  width: 16px;
+  height: 16px;
+  background: url("../images/close.png");
+  cursor: pointer;
+}
+
+.edit-img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background-color: rgba(0,0,0,0.8);
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.goodsEdit-box {
+  margin-top: 20px;
+}
+.user-edit-sub {
+  margin: 40px 0;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user-edit-sub button{
+  display: block;
+  text-align: center;
+  width: 120px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  letter-spacing:2px;
+  color: #ffffff;
+  background-color: #238a34;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+.edit-item .message {
+  display: none;
+  position:  absolute;
+}
+.edit-item.error input { border: 1px solid #f00; }
+.edit-item.error .message {
+  display: block;
+  float: left;
+  top: 33px;
+  left: 110px;
+  color: #ff0000;
+}

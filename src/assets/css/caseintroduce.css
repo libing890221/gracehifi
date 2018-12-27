@@ -1,0 +1,268 @@
+.introduce-box {
+  width: 822px;
+  margin-top: 40px;
+  float: right;
+  overflow: hidden;
+}
+
+.introduce-swiper-box {
+  float: left;
+  overflow: hidden;
+  width: 430px;
+  height: 330px;
+  position: relative;
+}
+.introduce-swiper-box .swiper-slide {
+  display: flex;
+  width: 100%;
+  height:240px;
+  justify-content: center;
+  align-items: center;
+}
+.introduce-swiper-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.introduce-swiper-box .swiper-1 .swiper-slide {
+  background-color: #ccc;
+}
+.introduce-swiper-box .gallery-thumbs {
+  margin-top: 10px;
+  width: 100%;
+  justify-content: left;
+  align-items: center;
+}
+.introduce-swiper-box .gallery-thumbs  .swiper-slide {
+  width: 80px;
+  height: 70px;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 2px;
+}
+.introduce-swiper-box .gallery-thumbs .swiper-slide-active {
+  border: 2px solid #004098;
+}
+
+.case-parameter-box {
+  width: 350px;
+  float: right;
+  font-size: 14px;
+}
+
+.case-parameter-box {
+  width: 360px;
+  float: right;
+}
+.case-number {
+  text-align: right;
+  color: #adadad;
+}
+
+.case-parameter-box .label {
+  margin-top: 10px;
+}
+
+.case-parameter-box .label span {
+  display: inline-block;
+  width: 76px;
+  height: 28px;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 28px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.case-parameter-box .level {
+  background-color: #345ac5;
+}
+
+.case-parameter-box .ifUsed {
+  background-color: #646262;
+}
+
+.brand {
+  margin-top: 6px;
+}
+
+.brand a {
+  color: #004098;
+}
+
+.model, .casestore {
+  margin: 7px 0;
+  line-height: 16px;
+  padding-left: 5px;
+  border-left: 6px solid #c7c7c7;
+}
+
+.pro {
+  margin-top: 25px;
+  text-align: right;
+}
+
+.pro span {
+  display: inline-block;
+  width: 60px;
+  height: 24px;
+  margin-right: 2px;
+  line-height: 22px;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #c70000;
+
+}
+
+.pro .sell-out {
+  box-sizing: border-box;
+  line-height: 18px;
+  background-color: #fff;
+  border: 2px solid red;
+  color: red;
+}
+
+.price {
+  margin-top: 12px;
+  text-align: right;
+  color: #e60012;
+  font-size: 26px;
+  line-height: 42px;
+}
+
+.transport {
+  color: #adadad;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.buy {
+  width: 100%;
+  height: 56px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.buy span {
+  display: block;
+  float: right;
+  width: 100%;
+  height: 56px;
+  line-height: 56px;
+  background-color: #238a34;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+}
+
+.buy .sellout {
+  background-color: #ccc;
+}
+
+.serve-box {
+  width: 100%;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.serve-box .serve {
+  float: left;
+  width: 430px;
+  overflow: hidden;
+}
+
+.serve-box .serve h2 {
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  padding: 0px 10px;
+  border: 1px solid #c7c7c7;
+}
+
+.serve-box .serve ul {
+  margin-top: 20px;
+}
+
+.serve-box .serve li {
+  margin: 10px 0;
+  line-height: 16px;
+  padding-left: 5px;
+  border-left: 6px solid #c7c7c7;
+}
+
+.shop {
+  float: right;
+  width: 344px;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 2px solid #c7c7c7;
+  font-size: 14px;
+}
+
+.shop-title {
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed #ccc;
+
+}
+
+.shop-title h2 {
+  display: block;
+
+
+}
+.shop-title span {
+  display: block;
+  margin: 4px 0;
+  height: 16px;
+  padding-left: 6px;
+  line-height: 16px;
+  border-left: 6px solid #004098;
+}
+.sell-way {
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #73b34a;}
+.sell-way h2 {
+  font-weight: 700;}
+
+.sell-way li:before{
+  content: "·";
+  display: inline-block;
+  float: left;
+  width: 4px;
+  height: 4px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.shop-link {
+  margin-top: 10px;
+  padding: 10px 13px;
+  background-color: #c7c7c7;
+}
+.shop-link button {
+  display: block;
+  width: 100%;
+  padding: 4px 0;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background-color: #2f2f2f;
+  color: #ffffff;
+}
+.introduction-title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 4px solid #73b34a;
+}
+.introduction-box {
+  padding-bottom: 40px;
+}

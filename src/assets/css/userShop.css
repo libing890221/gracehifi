@@ -1,0 +1,386 @@
+.usershop-title {
+  width: 1080px;
+  height: 200px;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid #238a34;
+  overflow: hidden;
+}
+
+.shop-logo {
+  display: inline-block;
+  width: 210px;
+  height: 160px;
+  margin: 20px;
+  overflow: hidden;
+  float: left;
+  border: 1px solid #ccc
+}
+.shop-logo img {
+  width: 210px;
+  height: 160px;
+}
+.shop-intro {
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+  width: 780px;
+}
+
+.shop-name {
+  font-size: 22px;
+  line-height: 60px;
+  color: #666;
+}
+
+.shop-intro-text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #888888;
+}
+
+.shop-box {
+  width: 1080px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+.user-shop {
+  width: 780px;
+  float: right;
+}
+
+.user-shop-box {
+  float: left;
+  width: 260px;
+}
+
+.filtrate-box {
+  float: left;
+  /*margin-left: 60px;*/
+  margin-top: 40px;
+  width: 100%;
+}
+
+.user-shop .regist-sub {
+  margin-top: 20px;
+}
+
+.form-group {
+
+}
+
+.user-shop .form-group {
+  width: 380px;
+  line-height: 36px;
+  padding-right: 60px;
+  margin-bottom: 20px;
+}
+
+.user-shop .form-group label {
+  float: left;
+  display: inline-block;
+  width: 60px;
+  text-align: right;
+}
+
+.information-title {
+  display: block;
+  margin-top: 34px;
+  line-height: 46px;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 2px solid #238a34;
+}
+
+.user-shop .shop-msg-sub .drag {
+  margin-top: 60px;
+}
+
+.user-shop .form-group.error .message {
+  left: 390px;
+}
+
+.user-shop .form-group textarea {
+  display: block;
+  width: 300px;
+  height: 140px;
+  margin: 19px auto;
+  box-sizing: border-box;
+  resize:none;
+  line-height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-indent: 10px;
+}
+.croppa-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0,0,0,0.8);
+}
+.croppa {
+  position: relative;
+  width: 620px;
+  height: 510px;
+
+}
+.regist-sub .btns {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 460px;
+  justify-content: space-between;
+  align-items: center;
+}
+.regist-sub .btns button {
+  background: none;
+  border: none;
+  display: inline-flex;
+  color: #dbdbdb;
+  font-size: 16px;
+  margin: 0;
+  margin-bottom: 26px;
+}
+.regist-sub .btns button:hover {
+  background: none;
+}
+.regist-sub .btns button:nth-child(2):hover {
+  transform: rotate(30deg);
+}
+.regist-sub .btns button:nth-child(3):hover {
+  transform: rotate(-30deg);
+}
+.regist-sub .btns button:nth-child(4):hover {
+  transform: rotateY(180deg);
+}
+.regist-sub .btns button:nth-child(5):hover {
+  transform: rotateX(180deg);
+}
+.regist-sub .btns button:nth-child(6):hover {
+  font-size: 16px;
+  transform: scale(1.2);
+}
+.regist-sub .croppa-range-box {
+  width: 600px;
+  display: block;
+  height: 50px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+.regist-sub .croppa-range {
+  display: inline-block;
+  width: 500px;
+  margin: 0;
+  margin-top: 8px;
+  outline: none;
+}
+.regist-sub .croppa-range-box span {
+  float: left;
+  display: inline-block;
+  font-size: 14px;
+  color: #ffffff;
+}
+.regist-sub .form-group-logo {
+  margin-bottom: 0px;
+}
+.regist-sub .form-group-logo span {
+  display: inline-block;
+  width: 302px;
+}
+.regist-sub .form-group-logo i {
+  display: block;
+  width: 100%;
+  text-indent: 5px;
+  text-align: left;
+}
+.regist-sub .form-group-logo img {
+  display: block;
+  width: 220px;
+  height: 168px;
+  border: 1px solid #8a827d;
+}
+.alter-password .form-group {
+  width: 380px;
+  padding-right: 0;
+}
+.alter-password .drag  {
+  width: 380px;
+}
+.uesrShop-list {
+  width: 100%;
+  margin-top: 60px;
+  overflow: hidden;
+}
+.uesrShop-list-item {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+}
+.uesrShop-image {
+  width: 80px;
+  height: 70px;
+  margin: 20px 10px;
+  padding: 10px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+}
+.uesrShop-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.uesrShop-item-title {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  background-color: #cfe7d3;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #3c3c3c;
+}
+.uesrShop-list-item {
+  margin-bottom: 10px;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1px solid #e1e1e1;
+  box-sizing: border-box;
+}
+.uesrShop-list-item:hover {
+  border: 1px solid #b8dfbe;
+}
+.uesrShop-item-title input {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.uesrShop-property {
+  float: left;
+  width: 380px;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+.uesrShop-property h2 {
+  line-height: 30px;
+  font-size: 14px;
+  color: #3c3c3cc;
+}
+.uesrShop-property span {
+  display: block;
+  line-height: 20px;
+}
+.uesrShop-property p {
+  display: block;
+  margin-top: 5px;
+}
+.uesrShop-property p u {
+  display: inline-block;
+  margin: 0;
+  margin-right: 6px;
+  padding: 2px 6px;
+  background-color: #ac3131;
+  color: #ffffff;
+  text-decoration: none;
+}
+.uesrShop-price {
+  width: 130px;
+  height: 130px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+.uesrShop-compile {
+  width: 130px;
+  height: 130px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.uesrShop-compile span,
+.uesrShop-price span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  line-height: 22px;
+}
+.uesrShop-compile span:hover {
+  color: #238a34;
+}
+@media only screen and (max-width: 640px) {
+  .usershop-title,
+  .shop-box {
+    width: 90%;
+  }
+  .usershop-title {
+    height: 116px;
+  }
+  .information-title {
+    margin-top: 0;
+  }
+    .user-shop {
+      width: 100%;
+      float: none;
+    }
+  .filtrate-box {
+    margin-top: 20px;
+  }
+  shop-box {
+    margin-top: 0;
+  }
+  .shop-logo {
+    width: 32%;
+    margin:  10px;
+    margin-right: 0;
+    height: 91px;
+  }
+  .shop-logo img {
+    width: 100%;
+    height: 100%;
+  }
+  .shop-intro {
+    width:  58%;
+    margin:  10px;
+    margin-left: 0;
+  }
+  .shop-name {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+  .shop-intro-text {
+    width: 100%;
+    max-width: 100%;
+    white-space: normal;
+    line-height: 20px;
+    font-size: 14px;
+    height: 63px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+  }
+  .uesrShop-list {
+    margin-top: 30px;
+  }
+
+}
